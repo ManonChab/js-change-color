@@ -11,7 +11,11 @@ function changeColor(){
     else if (currentbackground === "rgb(0, 0, 139)") {
     return background.style.backgroundColor = "red";
     }
-};
+
+//     return (currentbackground === "rgb(255, 0, 0)")? background.style.backgroundColor = "darkblue" 
+//         : (currentbackground === "rgb(0, 0, 139)")? background.style.backgroundColor = "red":
+        
+}
 
 function changeText(){
     let text = document.getElementById("text");
